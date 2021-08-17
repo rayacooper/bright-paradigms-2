@@ -1,0 +1,136 @@
+.NavBarMain {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 10vh;
+    background-color: black;
+    color: white;
+}
+ 
+.NavBarLogo {
+    display: flex;
+    align-items: center;
+}
+ 
+#logocropped {
+    display: none;
+    /* margin-left: 10px;
+    height: 50px;
+    width: 90px; */
+}
+ 
+#logo {
+    display: none;
+}
+ 
+#lettering {
+    display: none;
+}
+ 
+#letteringmobile {
+    margin-top: 5px;
+    margin-left: 10px;
+    width: 30vw;
+}
+ 
+.NavBarLinks {
+    display: none;
+}
+ 
+.NavBarHamburger{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+ 
+.NavBarHamburger img {
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    padding: 15px;
+}
+ 
+.LinkLink{
+    text-decoration: none;
+    color: rgb(150, 150, 150);;
+}
+ 
+.NavBarDropDownHidden {
+    display: none;
+}
+ 
+ul {
+    list-style-type: none;
+}
+ 
+li {
+    margin: 8px 50px 15px 0px;
+}
+ 
+.NavBarDropDownVisible {
+    font-size: 20px;
+    opacity: 0.8;
+    right: 0px;
+    position: absolute;
+    margin-top: 10vh;
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    z-index: 3;
+}
+ 
+@media screen and (min-width: 600px) and (max-height: 400px){
+    .NavBarMain {
+        height: 18vh;
+    }
+}
+ 
+@media screen and (min-width: 925px){
+ 
+    .NavBarMain {
+        height: 10vh;
+        padding: 2vh 0 2vh 0;
+    }
+ 
+    .NavBarLinks {
+        display: flex;
+        width: 50vw;
+        justify-content: space-around;
+        align-items: center;
+        margin-right: 5vw;
+    }
+ 
+    #lettering {
+        margin-left: 10px;
+    }
+ 
+    #logo {
+        display: block;
+        margin-left: 30px;
+        height: 50px;
+        width: 140px;
+    }
+ 
+    #logocropped {
+        display: none;
+    }
+ 
+    #lettering {
+        display: block;
+        margin-top: 20px;
+        height: 60px;
+        width: auto;
+    }
+    
+    #letteringmobile {
+        display: none;
+    }
+ 
+    .NavBarHamburger {
+        display: none;
+    }
+ 
+    .NavBarDropDownVisible{
+        display: none;
+    }
+}

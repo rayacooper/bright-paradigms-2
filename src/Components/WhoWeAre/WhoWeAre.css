@@ -1,0 +1,61 @@
+.WhoMain {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(63, 63, 63);
+    color: white;
+    box-sizing: border-box;
+}
+ 
+.WhoInner {
+    text-align: left;
+    padding: 10vw;
+}
+ 
+.WhoInner h1 {
+    font-size: 50px;
+    text-indent: 0px;
+    margin-top: -1vw;
+}
+ 
+.WhoInner h4 {
+    text-indent: 0px;
+    margin-top: -2vw;
+    color: gray;
+}
+ 
+.WhoInner img {
+    border-radius: 8px;
+    width: 70vw;
+}
+ 
+#ForrestVids {
+    text-decoration: underline;
+}
+ 
+@media screen and (min-width: 925px){
+    .WhoMain {
+        display: flex;
+    }
+ 
+    .WhoInner {
+        padding: 5vw 20vw 5vw 20vw;
+    }
+ 
+    .WhoInner img {
+        max-width: 20vw;
+        max-height: 20vw;
+    }
+ 
+    .WhoRow {
+        display: flex;
+    }
+ 
+    .WhoRow p {
+        margin: 0px 0px 10px 4vw;
+    }
+ 
+    #ForrestG {
+        margin-top: -5vw;
+    }
+ 
+}

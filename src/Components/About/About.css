@@ -1,0 +1,175 @@
+.AboutMain {
+    color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+ 
+#mission{
+    width: 90vw;
+}
+ 
+#AboutIntro {
+    /* background-image: url('./../../Assets/lamp-image-dark.jpg'); */
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 9vh 0px 3vh 0px;
+    font-size: 4vw;
+}
+ 
+#whatwedo {
+    font-size: 20px;
+    width: 80vw;
+    color: white;
+    margin: auto;
+}
+ 
+.InnerText {
+    width: 70vw;
+    text-align: left;
+}
+ 
+.AboutNavBar h5 {
+    margin: 13px;
+}
+ 
+img {
+    width: 100%;
+}
+ 
+ 
+.AboutBody{
+    color: rgb(207, 206, 206);
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgb(63, 63, 63);
+}
+ 
+.AboutClick {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+ 
+.Arrow {
+    width: 4vw;
+    opacity: 50%;
+    padding: 1vw;
+}
+ 
+.AboutDesktop {
+    display: none;
+}
+ 
+#AbtLight {
+    background-image: url('./../../Assets/Green_Turtle_Interior.jpg');
+    background-size: cover;
+}
+ 
+#AbtShade {
+    background-image: url('./../../Assets/Tavaci_Kitchen.jpg');
+    background-size: cover;
+}
+ 
+#AbtTemp {
+    background-image: url('./../../Assets/Tavaci_Exterior.jpg');
+    background-size: cover;
+}
+ 
+.AboutMiniSections {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+ 
+.AboutMiniSections h1 {
+    color: white;
+    width: 80vw;
+    padding: 20px;
+    margin-top: -3px;
+    border-radius: 4px;
+    font-size: 1.7em;
+}
+ 
+.AboutHidden h1 {
+    color: white;
+    width: 80vw;
+    border-radius: 8px;
+    padding: 20px;
+    margin-top: -3px;
+    font-size: 1.7em;
+}
+ 
+.AboutMiniSections p{
+    display: block;
+    width: 70vw;
+    text-align: left;
+    color: rgb(211, 208, 208);
+}
+ 
+.AboutHidden p{
+    display: none;
+}
+ 
+@media screen and (min-width: 800px){
+    #mission{
+        width: 60vw;
+    }
+    #AboutIntro {
+        font-size: 1.5v
+    }
+ 
+    #whatwedo {
+        font-size: 2vw;
+    }
+ 
+    .AboutClick {
+        display: none;
+    }
+ 
+    .AboutMini {
+        display: flex;
+        margin: 20px;
+        font-size: 10vh;
+    }
+ 
+    .AboutDesktop {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+ 
+    .AboutDesktopImg {
+        width: 40vw;
+        background-color: rgb(48, 47, 47);
+        border-radius: 8px;
+        padding-bottom: 4vw;
+        font-size: 2vw;
+    }
+    
+    #Shades {
+        width: 40vw;
+        /* margin: -5vw -500px -4vw -500px; */
+    }
+ 
+    .AboutDesktopText {
+        width: 30vw;
+        height: 30vw;
+        padding: 30px;
+        box-sizing: border-box;
+        color: rgb(255, 255, 255);
+        text-align: left;
+    }
+ 
+    .AboutDesktopText p {
+        font-size: 1.3vw;
+    }
+}

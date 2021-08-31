@@ -19,7 +19,8 @@
  
     .HomePageMain {
         align-items: center;
-        background-color: black;;
+        background: rgb(40,63,85);
+        background: linear-gradient(90deg, rgb(24, 42, 58) 0%, rgb(24, 25, 29) 100%);
     }   
  
     #HomeCarousel {

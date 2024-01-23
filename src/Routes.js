@@ -7,14 +7,17 @@ import HomePage from './Components/HomePage/HomePage';
 import WhoWeAre from './Components/WhoWeAre/WhoWeAre';
 import Videos from './Components/WhoWeAre/Videos'
 // import ProjectX from './Components/Projects/AllProjects/Project X';
+import Services from './Components/Services/Services'
  
 export default (
     <Switch>
-        <Route component={About} path='/about'/>
+        {/* <Route component={About} path='/about'/> */}
         {/* <Route component={ProjectX} path='/portfolio/projectx'/> */}
         {/* <Route component={Projects} path='/portfolio'/> */}
         <Route component={Videos} path='/whoweare/videos'/>
         <Route component={WhoWeAre} path='/whoweare'/>
+        <Route component={Services} path='/services'/>
+        <Route component={About} path='/about' />
         <Route component={HomePage} path='/'/>
     </Switch>
 )

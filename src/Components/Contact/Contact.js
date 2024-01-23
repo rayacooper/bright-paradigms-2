@@ -17,9 +17,9 @@ const Contact = () => {
  
             <div className="ContactInner">
                 <p><b>CONTACT</b></p>
-                <p>Forrest G Kelsey</p>
-                <p>801.472.7595</p>
-                <a href='mailto: forrest.g.kelsey@gmail.com' target='blank'><p>FORREST.G.KELSEY@GMAIL.COM</p></a>
+                <p>Forrest D Kelsey</p>
+                <p>801.494.7687</p>
+                <a href='mailto: forrest.kelsey@gmail.com' target='blank'><p>FORREST.G.KELSEY@GMAIL.COM</p></a>
                 <br />
             </div>
  

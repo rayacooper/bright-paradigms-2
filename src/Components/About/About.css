@@ -4,28 +4,34 @@
     justify-content: center;
     width: 100%;
 }
- 
+
+
+#AboutHeader {
+    width: 60vw;
+    height: 65vh;
+    background-image: url('./../../Assets/Tavaci_Kitchen.jpg');
+    background-repeat: no-repeat;
+    text-align: left;
+    padding: 1vw;
+    position: absolute;
+    top: 20vh;
+}
+
 #mission{
     width: 90vw;
 }
  
 #AboutIntro {
-    /* background-image: url('./../../Assets/lamp-image-dark.jpg'); */
     background-size: cover;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     padding: 9vh 0px 3vh 0px;
-    font-size: 4vw;
+    font-size: 1.5em;
 }
  
-#whatwedo {
-    font-size: 20px;
-    width: 80vw;
-    color: white;
-    margin: auto;
-}
+
  
 .InnerText {
     width: 70vw;
@@ -47,7 +53,7 @@ img {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-color: rgb(63, 63, 63);
+
 }
  
 .AboutClick {
@@ -119,6 +125,20 @@ img {
 }
  
 @media screen and (min-width: 800px){
+
+    .AboutShadow {
+        background-color: #1F242B;
+        width: 33vw;
+        height: 45vh;
+        position: absolute;
+    }
+     
+    #AboutShadowHeader {
+        width: 100vw;
+        margin-top: 20vh;
+        top: 13vh;
+    }
+
     #mission{
         width: 60vw;
     }
@@ -143,8 +163,8 @@ img {
     .AboutDesktop {
         display: flex;
         flex-direction: column;
-        justify-content: center;
-        align-items: center;
+
+        margin-top: 70vh;
     }
  
     .AboutDesktopImg {

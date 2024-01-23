@@ -6,7 +6,7 @@ import ArrowReverse from './../../Assets/Carat_Symbol_Reverse.png';
 import ArrowDown from './../../Assets/Carat_Symbol_Down.png';
 import Thermostat from './../../Assets/Model_8600.JPG'
 import ShadingVid from './../../Assets/Short_shades_demo_clip.mp4';
-import LightingExample from './../../Assets/Greatroom-All-Frames.gif';
+// import LightingExample from './../../Assets/Greatroom-All-Frames.gif';
  
 const About = () => {
  
@@ -17,24 +17,14 @@ const About = () => {
     return(
             <div className="AboutBody">
                 <div className="AboutSections" id='AboutIntro'>
-                    <img id='mission'src='https://i.imgur.com/nEEwApm.png' alt='Delivering clear, individualized automation solutions.'/>
-                    {/* <h3 className="InnerText">Our mission is to improve the health 
-                    and comfort of our clients by perfectly delivering clear, 
-                    individualized, automation solutions.<br /><br /> We offer high-end products 
-                    and programming that give you control when you want it and simplicity 
-                    when you need it.<br /><br /> We work with both commercial and residential 
-                    properties and are able to service retrofits as well as new builds.
-                    <br /> <br />
-                    </h3> */}
-                    {/* <h1>Our mission:</h1>
-                    <h1>Delivering clear, individualized automation solutions.</h1> */}
+                    <div className='AboutShadow' id='AboutShadowHeader'></div>
+                    <div id='AboutHeader'>
+                        <h3>Our mission:</h3>
+                        <h1>Delivering clear,<br /> individualized<br /> solutions</h1>
+                    </div>
                     <br />
                 </div>
- 
-                <div id='whatwedo'>
-                    <h1>WHAT WE DO</h1>
-                </div>
-                
+               
  
                 <div className="AboutClick">
                     <div className={lightingVisible ? "AboutMiniSections" : "AboutHidden"} id='AboutShading'>
@@ -88,22 +78,31 @@ const About = () => {
                 </div>
  
                 <div className='AboutDesktop'>
- 
-                    <div className="AboutMini">
+                    <div>
+                        <div className="AboutShadow"></div>
+                        <div className="AboutMini">
+                            <h2>Lighting</h2>
+                            <p>As a premier Vantage Controls dealer we are committed to using the very best in technology 
+                                in order to find the perfect solution for your home or business, delivering high quality, 
+                                natural tunable light, making any space more visually comfortable.</p>
+                        </div>
+                        {/* <div className="AboutMini">
                         <div className='AboutDesktopImg'>
-                            <h2>LIGHTING</h2>
-                            <img src={LightingExample} alt='Kitchen Interior'/>
+                        <h2>LIGHTING</h2>
+                        <img src={LightingExample} alt='Kitchen Interior'/>
                         </div>
                         <div className='AboutDesktopText'>
                             <p>For some, lighting control is an exciting opportunity for power and customization. 
-                            For others, it’s a beautiful necessity that offers elegant simplicity.
+                                For others, it’s a beautiful necessity that offers elegant simplicity.
                             <br /><br /> As a premier 
-                            Vantage Controls dealer we are committed to using the very best in technology in 
-                            order to find your perfect solution for your home or business no matter what lighting 
-                            control means to you. <br /><br />We are experts at Human Centric Lighting which delivers high 
-                            quality, natural tunable light, making any space more visually comfortable. </p>
+                                Vantage Controls dealer we are committed to using the very best in technology in 
+                                order to find your perfect solution for your home or business no matter what lighting 
+                                control means to you. <br /><br />We are experts at Human Centric Lighting which delivers high 
+                                quality, natural tunable light, making any space more visually comfortable. </p>
                         </div>
+                        </div> */}
                     </div>
+                    
  
                     <div className="AboutMini">
                         <div className='AboutDesktopText'>

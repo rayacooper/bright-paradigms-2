@@ -1,0 +1,120 @@
+/* Default: Mobile View: */
+
+#services-mobile-view {
+    display: block;
+}
+
+#services-desktop-view {
+    display: none;
+}
+
+.services-main--mobile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.services-main--mobile p {
+    text-align: left;
+    padding: 0 10vw 0 10vw;
+}
+
+.services-sections_mobile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.services-sections_mobile h1, .services-sections_hidden h1 {
+    color: white;
+    width: 80vw;
+    padding: 20px;
+    margin-top: -3px;
+    border-radius: 4px;
+    font-size: 1.7em;
+}
+
+.services-sections_hidden p{
+    display: none;
+}
+
+
+/* Desktop View: */
+
+@media screen and (min-width: 800px){
+
+    #services-mobile-view {
+        display: none;
+    }
+
+    #services-desktop-view {
+        text-align: left;
+        display: block;
+        width: 100vw;
+    }
+
+    #services-header{
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #services-header_main {
+        width: 50vw;
+        height: 60vh;
+        padding: 2vw;
+        z-index: 5;
+        background-image: url('./../../Assets/Tavaci_Kitchen.jpg');
+        background-repeat: no-repeat;
+    }
+
+    #services-header_main p{
+        /* font-family: 'Montserrat', sans-serif; */
+    }
+
+    #services-header_main h1{
+        font-size: 2.75em;
+    }
+
+    .services-shadow {
+        position: absolute;
+        background-color: #1F242B;
+        width: 80vw;
+        height: 45vh;
+        z-index: 1;
+    }
+
+    #header-shadow {
+        width: 100vw;
+    }
+
+    .services-main_element{
+        width: 100vw;
+        height: 10vh;
+        display: flex;
+        justify-content: center;
+        padding: 13vw 0 13vw 0;
+    }
+
+    .services-main_element_inner{
+        position: relative;
+        z-index: 2;
+        width: 60vw;
+        display: flex;
+        top: 5vw;
+    }
+
+    .services-main_element_inner_info{
+        padding: 2vw;
+    }
+
+    .services-main_element_inner_img{
+        position: relative;
+        top: -4vw;
+        width: 20vw;
+        height: 20vw;
+    }
+
+}

@@ -19,7 +19,7 @@ const Contact = () => {
                 <p><b>CONTACT</b></p>
                 <p>Forrest D Kelsey</p>
                 <p>801.494.7687</p>
-                <a href='mailto: forrest.kelsey@gmail.com' target='blank'><p>FORREST.G.KELSEY@GMAIL.COM</p></a>
+                <a href='mailto: forrest.kelsey@gmail.com' target='blank'><p>FORREST.KELSEY@GMAIL.COM</p></a>
                 <br />
             </div>
  
